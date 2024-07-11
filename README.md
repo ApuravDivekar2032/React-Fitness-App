@@ -1,7 +1,7 @@
 
 # React Fitness App
 
-A fully responsive fitness exercises application built with React 18, featuring advanced search and filtering functionalities for exercises. The app includes dynamic components, stylish UI elements from Material-UI, and data fetching from an exercise database API
+A fully responsive fitness exercises application built with React 18, featuring advanced search and filtering functionalities for exercises. The app includes dynamic components, stylish UI elements from Material-UI, and data fetching from an Exercise Database API and YouTube Search and Download API from Rapid API.
 
 ## Acknowledgements
 
