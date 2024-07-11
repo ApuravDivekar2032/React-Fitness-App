@@ -15,7 +15,7 @@
 
 import React from 'react';
 import { Box, Stack, Typography, IconButton, Divider } from '@mui/material';
-import { Facebook, Instagram, Twitter, MailOutline, Phone, } from '@mui/icons-material'; // Importing necessary icons
+import { Facebook, Instagram, Twitter, MailOutline, Phone } from '@mui/icons-material'; // Importing necessary icons
 import Logo from '../assets/images/logo1.jpg';
 
 const Footer = () => (

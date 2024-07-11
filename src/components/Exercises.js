@@ -41,16 +41,15 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const paginate = (event, value) => {
     setCurrentPage(value);
     window.scrollTo({ top: 1800, behavior: 'smooth' });
-};
+  };
 
-if (!exercises) {
-    return <Typography></Typography>;
-}
+  // if (!exercises) {
+  //   return <Typography></Typography>;
+  // }
 
-const indexOfLastExercise = currentPage * exercisesPerPage;
-const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
-const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
-
+  const indexOfLastExercise = currentPage * exercisesPerPage;
+  const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
+  const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
 
   if (!currentExercises.length) return <Loader />;
 
